@@ -2,39 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* AutoWash Design System - Water-inspired blue theme with clean aesthetics */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 210 100% 99%;
+    --foreground: 220 20% 10%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 220 20% 10%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 220 20% 10%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 205 100% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 205 100% 40%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 220 20% 10%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 195 100% 92%;
+    --accent-foreground: 205 100% 45%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 205 100% 45%;
+
+    /* AutoWash specific tokens */
+    --wash-blue: 205 100% 45%;
+    --wash-blue-light: 195 100% 92%;
+    --wash-blue-dark: 205 100% 35%;
+    --clean-white: 0 0% 100%;
+    --soap-foam: 210 40% 98%;
+    --water-ripple: 195 100% 85%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(205 100% 45%), hsl(195 100% 50%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 40% 98%));
+    --gradient-wash: linear-gradient(90deg, hsl(195 100% 85%), hsl(205 100% 92%));
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(205 100% 45% / 0.15);
+    --shadow-wash: 0 8px 30px -8px hsl(205 100% 45% / 0.25);
+    --shadow-float: 0 20px 40px -12px hsl(205 100% 45% / 0.3);
+    
+    /* Animation */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
     --radius: 0.5rem;
 
@@ -56,33 +77,47 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: 220 30% 8%;
     --foreground: 210 40% 98%;
 
-    --card: 222.2 84% 4.9%;
+    --card: 220 30% 10%;
     --card-foreground: 210 40% 98%;
 
-    --popover: 222.2 84% 4.9%;
+    --popover: 220 30% 10%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 205 100% 55%;
+    --primary-foreground: 220 30% 8%;
+    --primary-hover: 205 100% 50%;
 
-    --secondary: 217.2 32.6% 17.5%;
+    --secondary: 220 20% 15%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 220 20% 15%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 220 20% 15%;
+    --accent-foreground: 205 100% 55%;
 
-    --destructive: 0 62.8% 30.6%;
+    --destructive: 0 63% 31%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 220 20% 18%;
+    --input: 220 20% 18%;
+    --ring: 205 100% 55%;
+
+    /* Dark mode AutoWash tokens */
+    --wash-blue: 205 100% 55%;
+    --wash-blue-light: 205 100% 15%;
+    --wash-blue-dark: 205 100% 45%;
+    --clean-white: 220 30% 10%;
+    --soap-foam: 220 20% 12%;
+    --water-ripple: 205 100% 20%;
+    
+    /* Dark gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(205 100% 45%), hsl(195 100% 40%));
+    --gradient-card: linear-gradient(145deg, hsl(220 30% 10%), hsl(220 20% 15%));
+    --gradient-wash: linear-gradient(90deg, hsl(205 100% 15%), hsl(205 100% 20%));
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
