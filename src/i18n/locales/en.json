@@ -1,0 +1,88 @@
+{
+  "header": {
+    "brand": "AutoWash",
+    "tagline": "Premium Car Care",
+    "nav": {
+      "services": "Services",
+      "locations": "Locations",
+      "pricing": "Pricing",
+      "contact": "Contact"
+    },
+    "open": "Open 24/7",
+    "phone": "(555) 123-WASH",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "badge": "Rated #1 Car Wash Service",
+    "title": {
+      "premium": "Premium",
+      "carWash": "Car Wash",
+      "experience": "Experience"
+    },
+    "description": "Professional touchless car wash with eco-friendly products. Get your car sparkling clean in minutes with our advanced technology.",
+    "bookWash": "Book Your Wash",
+    "viewServices": "View Services",
+    "quickTime": "5-10 minutes",
+    "locations": "15+ Locations",
+    "rating": "4.9/5 Rating"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Choose the perfect wash package for your vehicle",
+    "basic": {
+      "title": "Basic Wash",
+      "price": "$12",
+      "features": [
+        "Exterior wash",
+        "Rinse & dry",
+        "Basic protection"
+      ]
+    },
+    "premium": {
+      "title": "Premium Wash",
+      "price": "$25",
+      "features": [
+        "Everything in Basic",
+        "Interior cleaning",
+        "Tire shine",
+        "Premium wax"
+      ]
+    },
+    "deluxe": {
+      "title": "Deluxe Detail",
+      "price": "$45",
+      "features": [
+        "Everything in Premium",
+        "Deep interior detail",
+        "Engine bay cleaning",
+        "Paint protection"
+      ]
+    }
+  },
+  "locations": {
+    "title": "Find Us Near You",
+    "subtitle": "15+ convenient locations across the city",
+    "downtown": {
+      "name": "Downtown Location",
+      "address": "123 Main Street, Downtown",
+      "hours": "24/7 Self-Service"
+    },
+    "mall": {
+      "name": "Shopping Mall",
+      "address": "456 Mall Drive, Westside",
+      "hours": "Mon-Sun: 8AM-10PM"
+    },
+    "airport": {
+      "name": "Airport Terminal",
+      "address": "789 Airport Blvd, Terminal 2",
+      "hours": "24/7 Express Service"
+    }
+  },
+  "footer": {
+    "description": "Premium car wash services with eco-friendly products and cutting-edge technology.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved."
+  }
+}

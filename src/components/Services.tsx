@@ -1,31 +1,34 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card"
 import { HeroButton } from "./ui/hero-button"
 import { Droplets, Sparkles, ShieldCheck, Zap, Car, Wand2 } from "lucide-react"
+import { useTranslation } from "react-i18next"
 
 const Services = () => {
+  const { t } = useTranslation()
+  
   const services = [
     {
       icon: Droplets,
-      title: "Basic Wash",
+      title: t('services.basic.title'),
       description: "Essential exterior wash with premium soap and rinse",
-      price: "$12",
-      features: ["Touchless technology", "Premium soap", "Spot-free rinse", "Quick dry"],
+      price: t('services.basic.price'),
+      features: t('services.basic.features', { returnObjects: true }) as string[],
       popular: false
     },
     {
       icon: Sparkles,
-      title: "Premium Wash",
+      title: t('services.premium.title'),
       description: "Complete wash with wax protection and interior clean",
-      price: "$18",
-      features: ["Everything in Basic", "Protective wax", "Interior vacuum", "Tire shine"],
+      price: t('services.premium.price'),
+      features: t('services.premium.features', { returnObjects: true }) as string[],
       popular: true
     },
     {
       icon: ShieldCheck,
-      title: "Ultimate Wash",
+      title: t('services.deluxe.title'),
       description: "Full-service wash with ceramic coating and detailing",
-      price: "$25",
-      features: ["Everything in Premium", "Ceramic coating", "Detail cleaning", "Air freshener"],
+      price: t('services.deluxe.price'),
+      features: t('services.deluxe.features', { returnObjects: true }) as string[],
       popular: false
     }
   ]
@@ -41,10 +44,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-wash-blue mb-4">
-            Our Wash Services
+            {t('services.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Choose from our range of professional car wash packages designed to keep your vehicle spotless
+            {t('services.subtitle')}
           </p>
         </div>
 

@@ -1,0 +1,88 @@
+{
+  "header": {
+    "brand": "AutoWash",
+    "tagline": "Soin Auto Premium",
+    "nav": {
+      "services": "Services",
+      "locations": "Emplacements",
+      "pricing": "Tarifs",
+      "contact": "Contact"
+    },
+    "open": "Ouvert 24h/24",
+    "phone": "(555) 123-WASH",
+    "bookNow": "Réserver"
+  },
+  "hero": {
+    "badge": "Service de lavage auto n°1",
+    "title": {
+      "premium": "Lavage Auto",
+      "carWash": "Premium",
+      "experience": "Excellence"
+    },
+    "description": "Lavage auto professionnel sans contact avec des produits écologiques. Votre voiture étincelante en quelques minutes grâce à notre technologie avancée.",
+    "bookWash": "Réserver Votre Lavage",
+    "viewServices": "Voir les Services",
+    "quickTime": "5-10 minutes",
+    "locations": "15+ Emplacements",
+    "rating": "Note 4.9/5"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Choisissez le forfait de lavage parfait pour votre véhicule",
+    "basic": {
+      "title": "Lavage Simple",
+      "price": "12€",
+      "features": [
+        "Lavage extérieur",
+        "Rinçage et séchage",
+        "Protection de base"
+      ]
+    },
+    "premium": {
+      "title": "Lavage Premium",
+      "price": "25€",
+      "features": [
+        "Tout du lavage simple",
+        "Nettoyage intérieur",
+        "Brillant pneus",
+        "Cire premium"
+      ]
+    },
+    "deluxe": {
+      "title": "Détail Deluxe",
+      "price": "45€",
+      "features": [
+        "Tout du premium",
+        "Détail intérieur complet",
+        "Nettoyage compartiment moteur",
+        "Protection peinture"
+      ]
+    }
+  },
+  "locations": {
+    "title": "Trouvez-nous Près de Vous",
+    "subtitle": "15+ emplacements pratiques à travers la ville",
+    "downtown": {
+      "name": "Centre-ville",
+      "address": "123 Rue Principale, Centre-ville",
+      "hours": "24h/24 Service autonome"
+    },
+    "mall": {
+      "name": "Centre Commercial",
+      "address": "456 Avenue du Centre, Ouest",
+      "hours": "Lun-Dim: 8h-22h"
+    },
+    "airport": {
+      "name": "Terminal Aéroport",
+      "address": "789 Blvd Aéroport, Terminal 2",
+      "hours": "24h/24 Service express"
+    }
+  },
+  "footer": {
+    "description": "Services de lavage auto premium avec produits écologiques et technologie de pointe.",
+    "quickLinks": "Liens Rapides",
+    "contact": "Contact",
+    "followUs": "Suivez-nous",
+    "rights": "Tous droits réservés."
+  }
+}
