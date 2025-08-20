@@ -31,7 +31,7 @@
     "subtitle": "Choose the perfect wash package for your vehicle",
     "basic": {
       "title": "Basic Wash",
-      "price": "$12",
+      "price": "120 DH",
       "features": [
         "Exterior wash",
         "Rinse & dry",
@@ -40,7 +40,7 @@
     },
     "premium": {
       "title": "Premium Wash",
-      "price": "$25",
+      "price": "250 DH",
       "features": [
         "Everything in Basic",
         "Interior cleaning",
@@ -50,7 +50,7 @@
     },
     "deluxe": {
       "title": "Deluxe Detail",
-      "price": "$45",
+      "price": "450 DH",
       "features": [
         "Everything in Premium",
         "Deep interior detail",

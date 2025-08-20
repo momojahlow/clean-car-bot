@@ -31,7 +31,7 @@
     "subtitle": "Choisissez le forfait de lavage parfait pour votre véhicule",
     "basic": {
       "title": "Lavage Simple",
-      "price": "12€",
+      "price": "120 DH",
       "features": [
         "Lavage extérieur",
         "Rinçage et séchage",
@@ -40,7 +40,7 @@
     },
     "premium": {
       "title": "Lavage Premium",
-      "price": "25€",
+      "price": "250 DH",
       "features": [
         "Tout du lavage simple",
         "Nettoyage intérieur",
@@ -50,7 +50,7 @@
     },
     "deluxe": {
       "title": "Détail Deluxe",
-      "price": "45€",
+      "price": "450 DH",
       "features": [
         "Tout du premium",
         "Détail intérieur complet",
