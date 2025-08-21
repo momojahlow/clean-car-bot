@@ -27,36 +27,51 @@
     "rating": "Note 4.9/5"
   },
   "services": {
-    "title": "Nos Services",
-    "subtitle": "Choisissez le forfait de lavage parfait pour votre véhicule",
-    "basic": {
-      "title": "Lavage Simple",
-      "price": "120 DH",
-      "features": [
-        "Lavage extérieur",
-        "Rinçage et séchage",
-        "Protection de base"
-      ]
+    "title": "Offres de lavage automobile",
+    "subtitle": "Écologique & Premium",
+    "vehicleTypes": {
+      "compact": "Citadine/Compact",
+      "suv": "SUV/Berline"
     },
-    "premium": {
-      "title": "Lavage Premium",
-      "price": "250 DH",
-      "features": [
-        "Tout du lavage simple",
-        "Nettoyage intérieur",
-        "Brillant pneus",
-        "Cire premium"
-      ]
+    "express": {
+      "title": "Express",
+      "target": "Salariés recherchant un lavage rapide pendant le travail.",
+      "services": "Lavage extérieur complet, aspiration habitacle et coffre, nettoyage des vitres.",
+      "price": {
+        "compact": "59.9 DH",
+        "suv": "69.9 DH"
+      },
+      "advantages": "Gain de temps, économie d'eau (technologie sans eau), prestation sur place."
     },
-    "deluxe": {
-      "title": "Détail Deluxe",
-      "price": "450 DH",
-      "features": [
-        "Tout du premium",
-        "Détail intérieur complet",
-        "Nettoyage compartiment moteur",
-        "Protection peinture"
-      ]
+    "confort": {
+      "title": "Confort",
+      "target": "Salariés souhaitant un nettoyage plus approfondi (sans detailing).",
+      "services": "Services Express + démoustication, dégraissage des jantes.",
+      "price": {
+        "compact": "79.9 DH",
+        "suv": "99.9 DH"
+      },
+      "advantages": "Finition plus durable (polissage léger du tableau de bord et protecteur de carrosserie)."
+    },
+    "prestige": {
+      "title": "Prestige",
+      "target": "Cadres et chefs d'entreprise recherchant un service premium à domicile/bureau.",
+      "services": "Complet + démoustication, polish, protection carrosserie, rénovation plastiques, taches sièges/tapis, cirage pneus, nettoyage vitres/jantes, anti-pluie pare-brise, aspiration détaillée.",
+      "price": {
+        "compact": "199.9 DH",
+        "suv": "249.9 DH"
+      },
+      "advantages": "Prestige à tarif fixe, plus pratique que détailing en atelier."
+    },
+    "vip": {
+      "title": "VIP Détailing",
+      "target": "Dirigeants ou propriétaires de véhicules haut de gamme.",
+      "services": "Prestige + polissage/lustrage pro, traitement céramique, cirage cuir, désinfection, anti-pluie pare-brise, protection intérieure prolongée.",
+      "price": {
+        "compact": "399.9 DH",
+        "suv": "449.9 DH"
+      },
+      "advantages": "Détailing complet sans eau, idéal pour entretien annuel ou revente."
     }
   },
   "locations": {

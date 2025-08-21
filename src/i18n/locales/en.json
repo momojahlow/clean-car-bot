@@ -27,36 +27,51 @@
     "rating": "4.9/5 Rating"
   },
   "services": {
-    "title": "Our Services",
-    "subtitle": "Choose the perfect wash package for your vehicle",
-    "basic": {
-      "title": "Basic Wash",
-      "price": "120 DH",
-      "features": [
-        "Exterior wash",
-        "Rinse & dry",
-        "Basic protection"
-      ]
+    "title": "Car Wash Services",
+    "subtitle": "Ecological & Premium",
+    "vehicleTypes": {
+      "compact": "City/Compact",
+      "suv": "SUV/Sedan"
     },
-    "premium": {
-      "title": "Premium Wash",
-      "price": "250 DH",
-      "features": [
-        "Everything in Basic",
-        "Interior cleaning",
-        "Tire shine",
-        "Premium wax"
-      ]
+    "express": {
+      "title": "Express",
+      "target": "Employees looking for quick wash during work.",
+      "services": "Complete exterior wash, interior and trunk vacuum, window cleaning.",
+      "price": {
+        "compact": "59.9 DH",
+        "suv": "69.9 DH"
+      },
+      "advantages": "Time saving, water economy (waterless technology), on-site service."
     },
-    "deluxe": {
-      "title": "Deluxe Detail",
-      "price": "450 DH",
-      "features": [
-        "Everything in Premium",
-        "Deep interior detail",
-        "Engine bay cleaning",
-        "Paint protection"
-      ]
+    "confort": {
+      "title": "Comfort",
+      "target": "Employees wanting thorough cleaning (no detailing).",
+      "services": "Express services + bug removal, rim degreasing.",
+      "price": {
+        "compact": "79.9 DH",
+        "suv": "99.9 DH"
+      },
+      "advantages": "More durable finish (light dashboard polishing and body protector)."
+    },
+    "prestige": {
+      "title": "Prestige",
+      "target": "Executives and business leaders seeking premium home/office service.",
+      "services": "Complete + bug removal, polish, body protection, plastic renovation, seat/carpet stain removal, tire treatment, window/rim cleaning, anti-rain windshield, detailed vacuum.",
+      "price": {
+        "compact": "199.9 DH",
+        "suv": "249.9 DH"
+      },
+      "advantages": "Fixed price prestige, more practical than workshop detailing."
+    },
+    "vip": {
+      "title": "VIP Detailing",
+      "target": "Business owners or luxury vehicle owners.",
+      "services": "Prestige + professional polishing/waxing, ceramic treatment, leather conditioning, disinfection, anti-rain windshield, extended interior protection.",
+      "price": {
+        "compact": "399.9 DH",
+        "suv": "449.9 DH"
+      },
+      "advantages": "Complete waterless detailing, ideal for annual maintenance or resale."
     }
   },
   "locations": {
