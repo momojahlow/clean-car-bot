@@ -1,6 +1,8 @@
 import { Car, MapPin, Phone, Clock } from "lucide-react"
 import { HeroButton } from "./ui/hero-button"
 import { useTranslation } from "react-i18next"
+import { Link } from "react-router-dom"
+import { Button } from "./ui/button"
 import LanguageSwitcher from "./LanguageSwitcher"
 
 const Header = () => {
@@ -39,6 +41,9 @@ const Header = () => {
               </div>
             </div>
             <LanguageSwitcher />
+            <Button asChild variant="outline" size="sm">
+              <Link to="/auth">Connexion</Link>
+            </Button>
             <HeroButton variant="primary" size="sm">
               {t('header.bookNow')}
             </HeroButton>
